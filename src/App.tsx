@@ -161,7 +161,7 @@ const WORKSHOPS: Workshop[] = [
     id: 15,
     title: "Inteligencia Artificial y Enseñanza del Español",
     moderator: "Dr. Redjem Abdelhadi",
-    link: "https://meet.google.com/fov-ruav-rro",
+    link: "https://meet.google.com/bet-wecn-fzv",
     description: "Un enfoque innovador sobre cómo la IA puede potenciar el aprendizaje del idioma español en contextos académicos.",
     sessions: [
       "Herramientas de la IA en la elaboración del TFM",
@@ -373,59 +373,24 @@ export default function App() {
               </div>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                <button className="group relative px-10 py-5 bg-cyan text-navy font-black text-lg rounded-2xl overflow-hidden transition-all hover:shadow-[0_0_40px_rgba(0,212,255,0.4)]">
+                <a 
+                  href="https://meet.google.com/ypg-tkks-pcd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative px-10 py-5 bg-cyan text-navy font-black text-lg rounded-2xl overflow-hidden transition-all hover:shadow-[0_0_40px_rgba(0,212,255,0.4)] cursor-pointer"
+                >
                   <span className="relative z-10 flex items-center gap-2">
                     JOIN LIVE NOW <Video className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </span>
-                </button>
-                <button 
-                  onClick={() => {
-                    const content = `
-CONFERENCE PROGRAMME
-The First National ONLINE Conference
-AI for Future Learning: Innovation and Interdisciplinary Approaches in ESP and EMI Contexts
-18 April 2026 | Online | Parallel workshops start at 11:00
-
-CONFERENCE PRESIDENT:
-Dr. Houda Boumediene
-
-HOST INSTITUTION:
-University of Amar Telidji - Laghouat
-AILE Laboratory & Faculty of Letters and Languages
-
-KEYNOTE SPEAKERS:
-- Prof. Chaker Abdelaziz KARRACHE (Expert in AI Applications)
-- Dr. Barkat TURQUI (Expert in ESP and EMI)
-- Dr. Ouafa OUARNIKI (Expert in ESP, EMI and ICL)
-- Dr. Nadir MHAMEDI (Expert in ESP and EMI)
-
-WORKSHOP 1: AI in ESP & Needs Analysis
-Moderator: Halima Saadia Kouidri
-Link: https://meet.google.com/hnv-vntu-vud
-
-WORKSHOP 5: AI, Cognition and Learning
-Moderator: Dr. Ouafa OUARNIKI
-
-WORKSHOP 15: Inteligencia Artificial y Enseñanza del Español
-Moderator: Dr. Redjem Abdelhadi
-Link: https://meet.google.com/fov-ruav-rro
-
-... and 12 other parallel workshops.
-                    `;
-                    const blob = new Blob([content], { type: 'text/plain' });
-                    const url = URL.createObjectURL(blob);
-                    const link = document.createElement('a');
-                    link.href = url;
-                    link.download = 'Conference_Programme_2026.txt';
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                    URL.revokeObjectURL(url);
-                  }}
-                  className="flex items-center gap-2 px-10 py-5 glass-panel rounded-2xl font-bold hover:bg-white/10 transition-all"
+                </a>
+                <a 
+                  href="https://drive.google.com/file/d/1cTnnc5GMPLg6uy9LMxtQprvZMYClKYH2/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-10 py-5 glass-panel rounded-2xl font-bold hover:bg-white/10 transition-all cursor-pointer"
                 >
                   <Download className="w-5 h-5" /> DOWNLOAD PROGRAMME
-                </button>
+                </a>
               </div>
             </motion.div>
           </div>
