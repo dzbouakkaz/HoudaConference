@@ -194,7 +194,7 @@ const SPEAKERS = [
     name: "Dr. Ouafa OUARNIKI",
     role: "Expert in ESP, EMI and ICL",
     institution: "Djelfa University",
-    image: "/ouafa.webp",
+    image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=3U-s0LAAAAAJ",
     bio: "Pioneer in teaching English for Specific Purposes, designing ESP courses, and professional development of language teachers"
   },
   {

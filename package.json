@@ -1,5 +1,6 @@
 {
-  "name": "react-example",
+  "name": "ailearning-conference",
+  "description": "Innovation and Interdisciplinary Approaches in ESP and EMI Contexts - Conference Website",
   "private": true,
   "version": "0.0.0",
   "type": "module",

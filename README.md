@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI for Future Learning Conference
 
-# Run and deploy your AI Studio app
+Innovation and Interdisciplinary Approaches in ESP and EMI Contexts.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/6dfad1bc-3edd-45a6-9784-60530890de31
+This is the official website for the **AI for Future Learning Conference**, hosted by the **University of Amar Telidji - Laghouat**, Faculty of Letters and Languages. The conference focuses on advancing the frontiers of interdisciplinary research in English for Specific Purposes (ESP) and English as a Medium of Instruction (EMI) through Artificial Intelligence.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- **Interactive Program**: Detailed schedule of workshops and sessions.
+- **Keynote Speakers**: Profiles of world-class experts in AI and education.
+- **Honorary Presidents**: Recognition of the conference leadership.
+- **Live Sessions**: Integration with Google Meet for remote participation.
+- **Responsive Design**: Polished UI built with React, Tailwind CSS, and Framer Motion.
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Start the development server:
+```bash
+npm run dev
+```
+
+### Build
+
+Build for production:
+```bash
+npm run build
+```
+
+## Credits
+
+Hosted by the **University of Amar Telidji - Laghouat**, Algeria.
+Research Laboratory: **AILE Laboratory**.
